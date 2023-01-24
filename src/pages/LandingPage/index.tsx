@@ -1,9 +1,11 @@
+import { Navbar } from "../../components/Navbar";
 import { Container } from "./styles";
 
 export function LandingPage() {
   return (
     <Container>
-      <h1>Landing Page</h1>
+      <Navbar />
+      <h1>Landing </h1>
     </Container>
   );
 }
