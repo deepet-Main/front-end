@@ -10,17 +10,15 @@ export function SearchBar() {
 
   return (
     <Container>
-      <form action="">
-        <input
-          type="text"
-          value={search}
-          onChange={handleOnChange}
-          placeholder="Search"
-        />
-        <button>
-          <SearchButton />
-        </button>
-      </form>
+      <input
+        type="text"
+        value={search}
+        onChange={handleOnChange}
+        placeholder="Search"
+      />
+      <button>
+        <SearchButton />
+      </button>
     </Container>
   );
 }

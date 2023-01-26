@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { AiOutlineSearch } from "react-icons/ai";
-export const Container = styled.div`
+export const Container = styled.form`
   width: 40%;
   height: 56px;
   display: flex;
@@ -25,7 +25,7 @@ export const Container = styled.div`
   }
   button {
     height: 40px;
-    width: 64px;
+    width: 60px;
     border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     background-color: rgb(255 255 255 / 8%);
