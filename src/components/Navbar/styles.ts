@@ -7,6 +7,8 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-between;
   position: fixed;
+  top: 0px;
+
   img {
     width: 56px;
     height: 56px;

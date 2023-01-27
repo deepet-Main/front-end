@@ -1,13 +1,12 @@
 import { Container } from "./styles";
-import logo from "../../assets/Initial_Logo2.png";
+import logo from "../../assets/OficialLogo.png";
 import { SearchBar } from "../SearchBar";
 import { Sidebar } from "../SideBar";
 
 export function Navbar() {
   return (
-    <Container>
+    <Container className="max-w-7xl h-16 flex justify-around mt-3 rounded-lg">
       <div>
-        <Sidebar />
         <img src={logo} alt="Logo" />
       </div>
       <SearchBar />
