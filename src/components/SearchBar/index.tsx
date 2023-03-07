@@ -16,7 +16,7 @@ export function SearchBar() {
         onChange={handleOnChange}
         placeholder="Search"
       />
-      <button>
+      <button className="bg-slate-300">
         <SearchButton />
       </button>
     </Container>
